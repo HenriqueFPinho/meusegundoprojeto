@@ -15,7 +15,6 @@ header {
 ul {
     display: flex;
     list-style: none;
-    
 
 }
 
@@ -24,6 +23,15 @@ li {
 
 }
 
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    font-weight: bold;
+    opacity: 1;
+}
 
 section {
     display: flex;
@@ -74,5 +82,11 @@ footer {
     margin: 157px auto auto;
     color: #FFFFFF;
     font-weight: 500px;
+
+}
+
+footer a:hover {
+    font-weight: bold;
+    opacity: 1;
 
 }
